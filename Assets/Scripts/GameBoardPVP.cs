@@ -6,7 +6,6 @@ using TMPro;
 
 public class GameBoardPVP : MonoBehaviour {
   [SerializeField] private Tilemap currentState;
-  // [SerializeField] private Tilemap nextState;
   [SerializeField] private Tilemap borderTilemap;
   [SerializeField] private Tile aliveTilePlayer1;
   [SerializeField] private Tile aliveTilePlayer2;
