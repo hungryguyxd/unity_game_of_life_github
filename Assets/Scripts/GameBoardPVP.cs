@@ -27,7 +27,7 @@ public class GameBoardPVP : MonoBehaviour {
   private List<HashSet<Vector3Int>> history = new List<HashSet<Vector3Int>>();
 
   private HashSet<Vector3Int> aliveCells = new HashSet<Vector3Int>();
-  private Dictionary<Vector3Int, int> cellOwners = new Dictionary<Vector3Int, int>(); // 1 или 2
+  private Dictionary<Vector3Int, int> cellOwners = new Dictionary<Vector3Int, int>();
   private bool isPaused = true;
   private bool setupPhase = true;
   private int currentPlayer = 1;
