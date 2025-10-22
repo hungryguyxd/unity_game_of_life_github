@@ -144,7 +144,7 @@ public class GameBoard : MonoBehaviour {
     }
     currentState.ClearAllTiles();
     foreach (Vector3Int cell in newAlive) {
-      currentState.SetTile(cell, aliveTile); //
+      currentState.SetTile(cell, aliveTile);
     }
     aliveCells = newAlive;
   }
